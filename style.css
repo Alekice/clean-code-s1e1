@@ -66,9 +66,6 @@
   margin: 0;
   text-transform: uppercase;
 }
-.title:first-of-type {
-  margin: 0 0 20px;
-}
 .task-list__text-input {
   margin: 0;
   font-size: 18px;
@@ -105,7 +102,9 @@
 .task-list__item > * {
   vertical-align: middle;
 }
-
+.task-list__item_no-border {
+  border: none;
+}
 .task-list__checkbox {
   margin: 0 10px;
   outline: none;
